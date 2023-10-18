@@ -58,7 +58,7 @@ If you specify a directory, it will match ALL files in that directory recursivel
   }
 
   var transformer =
-      replace(regexp, replacement, all: true, caseSensitive: false);
+      replace(regexp, replacement, all: true, caseSensitive: true);
   for (var f in files) {
     print(f);
     try {
